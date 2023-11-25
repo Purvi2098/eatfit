@@ -7,7 +7,7 @@ app = Flask(__name__)
 def information_details():
    data = {
    "Name":"Purvi patel",
-   "Student :"200522745",
+   "Student" :"200522745",
    "class":"Conversational Artificial intelligence"
       }
    return render_template('home.html', data=json.dumps(data, indent=4))
